@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  function aleatrio()
+  {
+    var num;
+    num=Math.random()*3;
+    num=parseInt(num);  
+    if (num==0)
+    {
+      window.location='http://www.outlook.com';
+    }
+    if (num==1)
+    {
+      window.location='http://www.yahoo.com';
+    }
+    if (num==2)
+    {
+      window.location='http://www.gmail.com';
+    }
+  }
+</script>
+<button onClick="aleatrio()">Numero aleatrio</button>
+</body>
+</html>
+
